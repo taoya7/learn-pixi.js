@@ -17,7 +17,7 @@
   </el-row>
 </template>
 
-<script lang="ts">
+<script>
 import {routes} from './router/index';
 import { defineComponent } from 'vue'
 import * as PIXI from 'pixi.js';

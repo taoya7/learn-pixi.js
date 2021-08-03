@@ -1568,7 +1568,7 @@ vscode-vue-languageservice@^0.26.6:
     vscode-pug-languageservice "^0.26.10"
     vscode-typescript-languageservice "^0.26.10"
 
-vue-router@^4.0.0:
+vue-router@^4.0.10:
   version "4.0.10"
   resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.10.tgz#ec8fda032949b2a31d3273170f8f376e86eb52ac"
   integrity sha1-7I/aAylJsqMdMnMXD483bobrUqw=
