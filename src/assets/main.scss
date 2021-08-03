@@ -1,0 +1,109 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  body,html {
+    background: #F9F9F9;
+  }
+  #nav{
+    height: 100vh;
+    background: #E9E8EE;
+    padding: 5vh 20px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 20%;
+    overflow-y: auto;
+    ul {
+      padding: -0px;
+      margin: 0;
+      list-style: none;
+      li {
+        line-height: 2em;
+        transition: all 0.6s;
+        border-radius: 5px;
+        &:hover {
+          background: #fff;
+        }
+        .router-link-active{
+          background: #fff;
+        }
+        a {
+          padding-left: 10px;
+          display: block;
+          color: #000;
+          text-decoration: none;
+          font-size: 13px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  #main {
+    height: 100vh;
+    background: transparent;
+    padding: 5vh 70px 100px 70px;
+  
+  }
+  
+  .card-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    border-left: 5px  solid #a6d6d6;
+    padding-left: 10px;
+    margin-bottom: 2em;
+  }
+  .el-card {
+    margin-bottom: 2em;
+    .info{
+      margin-bottom: 2em;
+      p {
+        font-size: 14px;
+        line-height: 1.5em;
+      }
+      img {
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+    .el-tag {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .el-drawer.rtl{
+    overflow-y: auto !important;
+  }
+  
+  
+  .drawer-content {
+    width: 100%;
+    min-height: 100vh;
+    background: #EEEEEE;
+    position: relative;
+    .close {
+      display: inline-block;
+      padding: 20px 40px;
+      border:1px solid #000;
+      margin-bottom: 50px;
+      cursor: pointer;
+      z-index: 20;
+      position: relative;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #nav {
+      position: relative;
+      display: none;
+      width: 100%;
+    }
+    #main {
+      padding: 20px 5%;
+    }
+  }
+  
