@@ -9,15 +9,12 @@
         <el-link href="https://github.com/pixijs/pixijs" target="_blank" type='success'>Github</el-link>
         <el-link href="https://www.pixijs.com/" target="_blank" type='success' >官网</el-link>
         <el-link href="http://pixijs.download/release/docs/PIXI.Application.html" target="_blank" type='info'>Docs</el-link>
-        <img src="imgs/1.png" alt="" draggable="false" style="width:100%;object-fit:cover;">
+        <img src="/imgs/1.png" alt="" draggable="false" style="width:100%;object-fit:cover;">
       </el-card>
   </div>
 </template>
 
 <script>
-export default {
-
-}
 </script>
 
 <style lang='scss'>

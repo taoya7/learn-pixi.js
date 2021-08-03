@@ -3,9 +3,9 @@
       移动/大小/旋转
   </div>
   <div>
-    <img src="imgs/2.png" draggable='false'>
-    <img src="imgs/3.png" draggable='false'>
-    <img src="imgs/4.png" draggable='false'>
+    <img src="/imgs/2.png" draggable='false'>
+    <img src="/imgs/3.png" draggable='false'>
+    <img src="/imgs/4.png" draggable='false'>
   </div>
 </template>
 

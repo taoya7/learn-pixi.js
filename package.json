@@ -7,10 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@rollup/plugin-alias": "^3.1.5",
     "element-plus": "^1.0.2-beta.65",
     "gsap": "^3.7.1",
     "normalize.css": "^8.0.1",
     "pixi.js": "^6.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "vue": "^3.0.5",
     "vue-router": "^4.0.10"
   },
