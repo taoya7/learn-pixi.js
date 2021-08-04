@@ -9,6 +9,7 @@
         <el-link href="https://github.com/pixijs/pixijs" target="_blank" type='success'>Github</el-link>
         <el-link href="https://www.pixijs.com/" target="_blank" type='success' >官网</el-link>
         <el-link href="http://pixijs.download/release/docs/PIXI.Application.html" target="_blank" type='info'>Docs</el-link>
+        <el-link href="https://pixijs.io/examples/#/demos-basic/container.js" target="_blank" type='info'>官方案例</el-link>
         <img src="/imgs/1.png" alt="" draggable="false" style="width:100%;object-fit:cover;">
       </el-card>
   </div>

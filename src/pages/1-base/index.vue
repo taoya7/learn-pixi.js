@@ -24,6 +24,10 @@
         <h3 class="card-title">拖动</h3>
         <Drag/>
       </el-card>
+      <el-card>
+        <h3 class="card-title">Container</h3>
+        <Container/>
+      </el-card>
   </div>
 </template>
 
@@ -34,6 +38,7 @@ import Handle from './components/Handle.vue';
 import Geometry from './components/Geometry.vue';
 import MouseMove from './components/MouseMove.vue';
 import Drag from './components/Drag.vue';
+import Container from './components/Container.vue';
 </script>
 
 <style>
